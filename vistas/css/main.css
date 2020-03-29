@@ -1,0 +1,32 @@
+/*================================
+ GLOBALES
+==================================*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* :::::::::: Navbar Lateral :::::::::: */
+#navbar-lateral {
+  float: left;
+  background-color: aquamarine;
+  display: block;
+  width: 200px;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+/* :::::::::: Nabvar Princiapl :::::::::: */
+
+#navbar-principal ul {
+  display: flex;
+  background-color: burlywood;
+  min-height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
