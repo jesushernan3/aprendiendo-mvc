@@ -1,5 +1,6 @@
 <?php
+  include "./core/configGeneral.php";
+  require_once "./controladores/vistasControlador.php";
 
-  include("vistas/plantilla.php")
-
-?>
+  $plantilla = new vistasControlador();
+  $plantilla->obtener_plantilla_controlador();
