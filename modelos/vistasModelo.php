@@ -35,11 +35,10 @@
       } elseif ($vistas=="login") {
           $contenido="login";
       } elseif ($vistas=="index") {
-        $contenido="login";
+          $contenido="login";
       } else {
-        $contenido="login";
+          $contenido="404";
       }
         return $contenido;
     }
   }
-  

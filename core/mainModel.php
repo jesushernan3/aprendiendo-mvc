@@ -1,6 +1,5 @@
 <?php
-  
-    
+
   if ($peticionAjax){
     	require_once '../core/configAPP.php';
     } else{
@@ -108,15 +107,10 @@
 									</script>
 
 							";
-			
-
 			}
+			return $alerta;
 
-									
 		}
-
-
-
 
   }
   

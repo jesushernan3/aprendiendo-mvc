@@ -58,6 +58,14 @@ body, html{
 .text-titles{
 	font-family: 'RobotoCondensedLight'
 }
+.container-404 {
+	color: #fff;
+	background-image: url(../assets/img/sideBar.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
 .breadcrumb-tabs{
 	margin-bottom: 15px; 
 	background-color: transparent; 
