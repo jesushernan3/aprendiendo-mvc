@@ -1,7 +1,7 @@
 <?php
-  const SERVER="";
-  const DB="";
-  const USER="";
+  const SERVER="localhost";
+  const DB="prueba";
+  const USER="root";
   const PASS="";
 
   const SGDB="mysql:host=".SERVER.";dbname=".DB;
