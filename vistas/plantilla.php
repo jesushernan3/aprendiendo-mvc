@@ -24,7 +24,7 @@
 		<section class="full-box dashboard-contentPage">
 
 			<!-- NavBar -->
-					<?php include "vistas/modulos/navbar.php"; ?>
+			<?php include "vistas/modulos/navbar.php"; ?>
 			
 			<!-- Content view -->
 			<?php include "$vistasR"; ?>

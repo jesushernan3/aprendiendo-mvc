@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="page-header">
-    <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Usuarios <small>CLIENTES</small></h1>
+    <h1 class="text-titles"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Administración <small>PROVEEDORES</small></h1>
   </div>
   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
 </div>
@@ -8,28 +8,23 @@
 <div class="container-fluid">
   <ul class="breadcrumb breadcrumb-tabs">
       <li>
-        <a href="client.html" class="btn btn-info">
-          <i class="zmdi zmdi-plus"></i> &nbsp; NUEVO CLIENTE
+        <a href="provider" class="btn btn-info">
+          <i class="zmdi zmdi-plus"></i> &nbsp; NUEVO PROVEEDOR
         </a>
       </li>
       <li>
-        <a href="client-list.html" class="btn btn-success">
-          <i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE CLIENTES
-        </a>
-      </li>
-      <li>
-        <a href="client-search.html" class="btn btn-primary">
-          <i class="zmdi zmdi-search"></i> &nbsp; BUSCAR CLIENTE
+        <a href="providerlist" class="btn btn-success">
+          <i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE PROVEEDORES
         </a>
       </li>
   </ul>
 </div>
 
-<!-- Panel listado de clientes -->
+<!-- Panel listado de proveedores -->
 <div class="container-fluid">
   <div class="panel panel-success">
     <div class="panel-heading">
-      <h3 class="panel-title"><i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE CLIENTES</h3>
+      <h3 class="panel-title"><i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE PROVEEDORES</h3>
     </div>
     <div class="panel-body">
       <div class="table-responsive">
@@ -37,27 +32,19 @@
           <thead>
             <tr>
               <th class="text-center">#</th>
-              <th class="text-center">DNI</th>
-              <th class="text-center">NOMBRES</th>
-              <th class="text-center">APELLIDOS</th>
+              <th class="text-center">NOMBRE</th>
               <th class="text-center">TELÉFONO</th>
-              <th class="text-center">A. CUENTA</th>
-              <th class="text-center">A. DATOS</th>
+              <th class="text-center">EMAIL</th>
+              <th class="text-center">ACTUALIZAR</th>
               <th class="text-center">ELIMINAR</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
-              <td>0976541234</td>
-              <td>Nombres</td>
-              <td>Apellidos</td>
-              <td>Telefono</td>
-              <td>
-                <a href="#!" class="btn btn-success btn-raised btn-xs">
-                  <i class="zmdi zmdi-refresh"></i>
-                </a>
-              </td>
+              <td>Proveedor 1</td>
+              <td>76543234</td>
+              <td>email@gmail.com</td>
               <td>
                 <a href="#!" class="btn btn-success btn-raised btn-xs">
                   <i class="zmdi zmdi-refresh"></i>
@@ -72,16 +59,10 @@
               </td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>0976541234</td>
-              <td>Nombres</td>
-              <td>Apellidos</td>
-              <td>Telefono</td>
-              <td>
-                <a href="#!" class="btn btn-success btn-raised btn-xs">
-                  <i class="zmdi zmdi-refresh"></i>
-                </a>
-              </td>
+              <td>2</td>
+              <td>Proveedor 3</td>
+              <td>76543234</td>
+              <td>email@gmail.com</td>
               <td>
                 <a href="#!" class="btn btn-success btn-raised btn-xs">
                   <i class="zmdi zmdi-refresh"></i>
