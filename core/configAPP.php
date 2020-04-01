@@ -1,7 +1,7 @@
 <?php
   const SERVER="localhost";
   const DB="prueba";
-  const USER="root";
+  const USER="biblioteca_publica";
   const PASS="";
 
   const SGDB="mysql:host=".SERVER.";dbname=".DB;

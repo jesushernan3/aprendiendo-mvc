@@ -32,6 +32,14 @@
     	$sql->bindParam(":Foto", $datos['Foto']);
     }
 
+    protected function eliminar_cuenta($datos){
+    	$sql=self::conectar->prepare("DELETE FROM cuenta WHERE 
+        CuentaCodigo=:Codigo;
+      $sql->bindParam(":Codigo",$codigo);
+      $sql->execute();
+      return $sql;
+    }
+
     // Funciones para encriptar contraseñas
     public static function encryption($string){
 			$output=FALSE;
