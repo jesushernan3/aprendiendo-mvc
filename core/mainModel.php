@@ -19,6 +19,19 @@
     	return $respuesta;
     }
 
+    protected function agregar_cuenta($datos){
+    	$sql=self::conectar->prepare("INSERT INTO cuenta(CuentaCodigo, CuentaPrivilegio, CuentaUsuario, CunetaClave, CuentaEmail, CuentaEstado, CuentaTipo, CuentaGenero, CuentaFoto) VALUES(:Codigo, :Privilegio, :Usuario, :Clave, :Email, :Estado, :Tipo, :Genero, :Foto)");
+    	$sql->bindParam(":Codigo", $datos['Codigo']);
+    	$sql->bindParam(":Privilegio", $datos['Privilegio']);
+    	$sql->bindParam(":Usuario", $datos['Usuario']);
+    	$sql->bindParam(":Clave", $datos['Clave']);
+    	$sql->bindParam(":Email", $datos['Email']);
+    	$sql->bindParam(":Estado", $datos['Estado']);
+    	$sql->bindParam(":Tipo", $datos['Tipo']);
+    	$sql->bindParam(":Genero", $datos['Genero']);
+    	$sql->bindParam(":Foto", $datos['Foto']);
+    }
+
     // Funciones para encriptar contraseñas
     public static function encryption($string){
 			$output=FALSE;
